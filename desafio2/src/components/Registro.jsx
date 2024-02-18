@@ -12,14 +12,18 @@ const Registro = () => {
   const linkedinIcon = 'linkedin';
 
   return (
-    <div>
-      <h1>Crea una cuenta</h1>
-      <SocialButton icon={facebookIcon} />
-      <SocialButton icon={githubIcon} />
-      <SocialButton icon={linkedinIcon} />
-      <p>o usa tu email para registrarte</p>
-      <Formulario />
-      <Alert />
+    <div className="container mt-5">
+      <div className="card text-center">
+        <div className="card-body">
+          <h1 className="card-title">Crea una cuenta</h1>
+          <SocialButton icon={facebookIcon} />
+          <SocialButton icon={githubIcon} />
+          <SocialButton icon={linkedinIcon} />
+          <p className="card-text">o usa tu email para registrarte</p>
+          <Formulario />
+          <Alert />
+        </div>
+      </div>
     </div>
   );
 };

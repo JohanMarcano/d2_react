@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="app-container">
       <Registro handleAlert={handleAlert} />
-      {/* Otros componentes o contenido de la aplicación */}
+      
     </div>
   );
 };
